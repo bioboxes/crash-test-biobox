@@ -1,13 +1,6 @@
-FROM alpine
+FROM bioboxes/biobox-minimal-base@sha256:908bc44aaa5de9a9b519cc3548b7d1e37c8f4f71a815f43ea71091e2980e9974
 
-RUN apk add --update bash && rm -rf /var/cache/apk/*
+ADD image /usr/local
 
-ADD image/scenario /scenario
-ADD image/run /
-
-ENV INPUT     /bbx/input/biobox.yaml
-ENV OUTPUT    /bbx/output
-ENV METADATA  /bbx/metadata
-
-ENTRYPOINT ["/run"]
+ENTRYPOINT ["crash_test.sh"]
 CMD []
