@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/usr/local/scenario/$1/run
+sleep 1 # Simulate something happening
+${SRC}/$1/run.sh

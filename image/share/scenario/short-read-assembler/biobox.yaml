@@ -1,0 +1,7 @@
+---
+version: 0.9.0
+arguments:
+  - fasta:
+    - id: 1
+      value: contigs.fa
+      type: contigs
