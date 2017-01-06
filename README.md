@@ -10,5 +10,8 @@ biobox tasks:
   * short-read-assembler: Runs as if a short read assembler such as spades or
     velvet. Returns a small set of contigs and a biobox.yaml.
 
-  * short-read-assembler: Runs as if the QUAST biobox were being exectuted.
-    Returns a report.tsv with quast metrics and a biobox.yaml.
+  * quast: Runs as if the QUAST biobox were being exectuted. Returns a
+    report.tsv with quast metrics and a biobox.yaml.
+
+  * gaet: Runs as if the GAET biobox were being exectuted. Returns a
+    metrics.tsv with GAET metrics and a biobox.yaml.
