@@ -8,6 +8,7 @@ all: ssh
 test: .image vendor/python tmp
 	@$(verify) short_read_assembler $(image) --task=short-read-assembler
 	@$(verify) assembler_benchmark $(image) --task=quast
+	@$(verify) assembler_benchmark $(image) --task=gaet
 
 
 ssh: .image

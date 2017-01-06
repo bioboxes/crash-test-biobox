@@ -1,0 +1,229 @@
+---
+assembly:
+  gene_count:
+    bacteria_archea_rRNA:
+      16S rRNA: 0
+      23S rRNA: 0
+      5S rRNA: 0
+      RNaseP rRNA: 0
+      SRP rRNA: 0
+    eukarya_rRNA:
+      18S rRNA: 0
+      23S rRNA: 0
+      5.8S rRNA: 0
+      5S rRNA: 0
+    tRNA:
+      Ala: 0
+      Arg: 0
+      Asn: 0
+      Asp: 0
+      Cys: 0
+      Gln: 0
+      Glu: 0
+      Gly: 0
+      His: 0
+      Ile: 0
+      Leu: 0
+      Lys: 0
+      Met: 0
+      Phe: 0
+      Pro: 0
+      Ser: 0
+      Thr: 0
+      Trp: 0
+      Tyr: 0
+      Val: 0
+  minimum_gene_set:
+    bacteria_archea_rRNA: false
+    eukarya_rRNA: false
+    tRNA: false
+  size_metrics:
+    CDS:
+      count: 7
+      l50: 3
+      n50: 777
+      sum_length: 4233
+    all:
+      count: 14
+      l50: 5
+      n50: 777
+      sum_length: 8466
+    rRNA:
+      count: 0
+      l50: null
+      n50: null
+      sum_length: 0
+    repeat_region:
+      count: 0
+      l50: null
+      n50: null
+      sum_length: 0
+    tRNA:
+      count: 0
+      l50: null
+      n50: null
+      sum_length: 0
+comparison:
+  gene_count:
+    bacteria_archea_rRNA:
+      16S rRNA: 0
+      23S rRNA: 0
+      5S rRNA: 0
+      RNaseP rRNA: 0
+      SRP rRNA: 0
+    eukarya_rRNA:
+      18S rRNA: 0
+      23S rRNA: 0
+      5.8S rRNA: 0
+      5S rRNA: 0
+    tRNA:
+      Ala: 0
+      Arg: 0
+      Asn: 0
+      Asp: 0
+      Cys: 0
+      Gln: 0
+      Glu: 0
+      Gly: 0
+      His: 0
+      Ile: 0
+      Leu: 0
+      Lys: 0
+      Met: 0
+      Phe: 0
+      Pro: 0
+      Ser: 0
+      Thr: 0
+      Trp: 0
+      Tyr: 0
+      Val: 0
+  gene_set_agreement:
+    bacteria_archea_rRNA: true
+    eukarya_rRNA: true
+    tRNA: true
+  gene_set_overlap:
+    CDS:
+      n_assembly_only: 3
+      n_intersect: 4
+      n_reference_only: 4
+      n_symmetric_difference: 7
+      perc_assembly_only: 0.2727272727272727
+      perc_intersect: 0.36363636363636365
+      perc_reference_only: 0.36363636363636365
+      perc_symmetric_difference: 0.6363636363636364
+    all:
+      n_assembly_only: 3
+      n_intersect: 4
+      n_reference_only: 4
+      n_symmetric_difference: 7
+      perc_assembly_only: 0.2727272727272727
+      perc_intersect: 0.36363636363636365
+      perc_reference_only: 0.36363636363636365
+      perc_symmetric_difference: 0.6363636363636364
+    rRNA:
+      n_assembly_only: 0
+      n_intersect: 0
+      n_reference_only: 0
+      n_symmetric_difference: 0
+      perc_assembly_only: null
+      perc_intersect: null
+      perc_reference_only: null
+      perc_symmetric_difference: null
+    repeat_region:
+      n_assembly_only: 0
+      n_intersect: 0
+      n_reference_only: 0
+      n_symmetric_difference: 0
+      perc_assembly_only: null
+      perc_intersect: null
+      perc_reference_only: null
+      perc_symmetric_difference: null
+    tRNA:
+      n_assembly_only: 0
+      n_intersect: 0
+      n_reference_only: 0
+      n_symmetric_difference: 0
+      perc_assembly_only: null
+      perc_intersect: null
+      perc_reference_only: null
+      perc_symmetric_difference: null
+  size_metrics:
+    CDS:
+      lg50: null
+      ng50: null
+    all:
+      lg50: null
+      ng50: null
+    rRNA:
+      lg50: null
+      ng50: null
+    repeat_region:
+      lg50: null
+      ng50: null
+    tRNA:
+      lg50: null
+      ng50: null
+reference:
+  gene_count:
+    bacteria_archea_rRNA:
+      16S rRNA: 0
+      23S rRNA: 0
+      5S rRNA: 0
+      RNaseP rRNA: 0
+      SRP rRNA: 0
+    eukarya_rRNA:
+      18S rRNA: 0
+      23S rRNA: 0
+      5.8S rRNA: 0
+      5S rRNA: 0
+    tRNA:
+      Ala: 0
+      Arg: 0
+      Asn: 0
+      Asp: 0
+      Cys: 0
+      Gln: 0
+      Glu: 0
+      Gly: 0
+      His: 0
+      Ile: 0
+      Leu: 0
+      Lys: 0
+      Met: 0
+      Phe: 0
+      Pro: 0
+      Ser: 0
+      Thr: 0
+      Trp: 0
+      Tyr: 0
+      Val: 0
+  minimum_gene_set:
+    bacteria_archea_rRNA: false
+    eukarya_rRNA: false
+    tRNA: false
+  size_metrics:
+    CDS:
+      count: 8
+      l50: 3
+      n50: 1287
+      sum_length: 8730
+    all:
+      count: 16
+      l50: 5
+      n50: 1287
+      sum_length: 17460
+    rRNA:
+      count: 0
+      l50: null
+      n50: null
+      sum_length: 0
+    repeat_region:
+      count: 0
+      l50: null
+      n50: null
+      sum_length: 0
+    tRNA:
+      count: 0
+      l50: null
+      n50: null
+      sum_length: 0
