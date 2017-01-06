@@ -1,12 +1,14 @@
 path        = PATH=$(abspath ./vendor/python/bin):${PATH}
 image       = biobox_testing/crash-test-biobox
 cli_version = 0.5.2
+verify      = TMPDIR=$(abspath tmp) $(path) biobox verify
 
 all: ssh
 
 test: .image vendor/python tmp
-	TMPDIR=$(abspath tmp) $(path) \
-	       biobox verify short_read_assembler $(image) --task=short-read-assembler --verbose
+	@$(verify) short_read_assembler $(image) --task=short-read-assembler
+	@$(verify) assembler_benchmark $(image) --task=quast
+
 
 ssh: .image
 	docker run \
