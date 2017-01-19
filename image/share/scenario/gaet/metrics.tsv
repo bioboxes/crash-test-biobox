@@ -5,7 +5,7 @@ assembly.gene_count.bacteria_archea_rRNA.RNaseP_rRNA	0
 assembly.gene_count.bacteria_archea_rRNA.SRP_rRNA	0
 assembly.gene_count.eukarya_rRNA.18S_rRNA	0
 assembly.gene_count.eukarya_rRNA.23S_rRNA	0
-assembly.gene_count.eukarya_rRNA.5.8S_rRNA	0
+assembly.gene_count.eukarya_rRNA.5_8S_rRNA	0
 assembly.gene_count.eukarya_rRNA.5S_rRNA	0
 assembly.gene_count.tRNA.Ala	0
 assembly.gene_count.tRNA.Arg	0
@@ -48,7 +48,7 @@ comparison.gene_count.bacteria_archea_rRNA.RNaseP_rRNA	0
 comparison.gene_count.bacteria_archea_rRNA.SRP_rRNA	0
 comparison.gene_count.eukarya_rRNA.18S_rRNA	0
 comparison.gene_count.eukarya_rRNA.23S_rRNA	0
-comparison.gene_count.eukarya_rRNA.5.8S_rRNA	0
+comparison.gene_count.eukarya_rRNA.5_8S_rRNA	0
 comparison.gene_count.eukarya_rRNA.5S_rRNA	0
 comparison.gene_count.tRNA.Ala	0
 comparison.gene_count.tRNA.Arg	0
@@ -108,7 +108,7 @@ reference.gene_count.bacteria_archea_rRNA.RNaseP_rRNA	0
 reference.gene_count.bacteria_archea_rRNA.SRP_rRNA	0
 reference.gene_count.eukarya_rRNA.18S_rRNA	0
 reference.gene_count.eukarya_rRNA.23S_rRNA	0
-reference.gene_count.eukarya_rRNA.5.8S_rRNA	0
+reference.gene_count.eukarya_rRNA.5_8S_rRNA	0
 reference.gene_count.eukarya_rRNA.5S_rRNA	0
 reference.gene_count.tRNA.Ala	0
 reference.gene_count.tRNA.Arg	0
